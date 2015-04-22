@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616D86951AE74BFE0079F58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86941AE74BFE0079F58B /* main.m */; };
+		616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86971AE74BFE0079F58B /* AppDelegate.m */; };
+		616D869B1AE74BFE0079F58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D869A1AE74BFE0079F58B /* ViewController.m */; };
+		616D86A01AE74BFE0079F58B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616D869F1AE74BFE0079F58B /* Images.xcassets */; };
+		616D86A31AE74BFE0079F58B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616D86A11AE74BFE0079F58B /* LaunchScreen.xib */; };
+		616D86AF1AE74BFE0079F58B /* GWUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86AE1AE74BFE0079F58B /* GWUtilsTests.m */; };
+		616D86C61AE74F8B0079F58B /* GWMostColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86C51AE74F8B0079F58B /* GWMostColorPickerViewController.m */; };
+		616D86CA1AE74F970079F58B /* UIImage+MostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86C91AE74F970079F58B /* UIImage+MostColor.m */; };
+		616D86CE1AE74FB00079F58B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 616D86CB1AE74FB00079F58B /* 1.jpg */; };
+		616D86CF1AE74FB00079F58B /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 616D86CC1AE74FB00079F58B /* 2.jpg */; };
+		616D86D01AE74FB00079F58B /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 616D86CD1AE74FB00079F58B /* 3.jpg */; };
+		616D86D61AE774EA0079F58B /* GWAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86D31AE774EA0079F58B /* GWAddressBook.m */; };
+		616D86D71AE774EA0079F58B /* GWAddressBookPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86D51AE774EA0079F58B /* GWAddressBookPerson.m */; };
+		616D86DF1AE7758B0079F58B /* GWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86DA1AE7758B0079F58B /* GWDeviceInfo.m */; };
+		616D86E01AE7758B0079F58B /* GWSystemApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86DC1AE7758B0079F58B /* GWSystemApiHelper.m */; };
+		616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86DE1AE7758B0079F58B /* GWSystemInfo.m */; };
+		616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86E51AE77B600079F58B /* GWAdressBookViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616D86A91AE74BFE0079F58B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616D86871AE74BFE0079F58B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616D868E1AE74BFE0079F58B;
+			remoteInfo = GWUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		616D868F1AE74BFE0079F58B /* GWUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		616D86931AE74BFE0079F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616D86941AE74BFE0079F58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		616D86961AE74BFE0079F58B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		616D86971AE74BFE0079F58B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		616D86991AE74BFE0079F58B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		616D869A1AE74BFE0079F58B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		616D869F1AE74BFE0079F58B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		616D86A21AE74BFE0079F58B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		616D86A81AE74BFE0079F58B /* GWUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GWUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		616D86AD1AE74BFE0079F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		616D86AE1AE74BFE0079F58B /* GWUtilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWUtilsTests.m; sourceTree = "<group>"; };
+		616D86C41AE74F8B0079F58B /* GWMostColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMostColorPickerViewController.h; sourceTree = "<group>"; };
+		616D86C51AE74F8B0079F58B /* GWMostColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMostColorPickerViewController.m; sourceTree = "<group>"; };
+		616D86C81AE74F970079F58B /* UIImage+MostColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MostColor.h"; sourceTree = "<group>"; };
+		616D86C91AE74F970079F58B /* UIImage+MostColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MostColor.m"; sourceTree = "<group>"; };
+		616D86CB1AE74FB00079F58B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		616D86CC1AE74FB00079F58B /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		616D86CD1AE74FB00079F58B /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		616D86D21AE774EA0079F58B /* GWAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAddressBook.h; sourceTree = "<group>"; };
+		616D86D31AE774EA0079F58B /* GWAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAddressBook.m; sourceTree = "<group>"; };
+		616D86D41AE774EA0079F58B /* GWAddressBookPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAddressBookPerson.h; sourceTree = "<group>"; };
+		616D86D51AE774EA0079F58B /* GWAddressBookPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAddressBookPerson.m; sourceTree = "<group>"; };
+		616D86D91AE7758B0079F58B /* GWDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWDeviceInfo.h; sourceTree = "<group>"; };
+		616D86DA1AE7758B0079F58B /* GWDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWDeviceInfo.m; sourceTree = "<group>"; };
+		616D86DB1AE7758B0079F58B /* GWSystemApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSystemApiHelper.h; sourceTree = "<group>"; };
+		616D86DC1AE7758B0079F58B /* GWSystemApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSystemApiHelper.m; sourceTree = "<group>"; };
+		616D86DD1AE7758B0079F58B /* GWSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSystemInfo.h; sourceTree = "<group>"; };
+		616D86DE1AE7758B0079F58B /* GWSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSystemInfo.m; sourceTree = "<group>"; };
+		616D86E41AE77B600079F58B /* GWAdressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAdressBookViewController.h; sourceTree = "<group>"; };
+		616D86E51AE77B600079F58B /* GWAdressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAdressBookViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616D868C1AE74BFE0079F58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616D86A51AE74BFE0079F58B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616D86861AE74BFE0079F58B = {
+			isa = PBXGroup;
+			children = (
+				616D86911AE74BFE0079F58B /* GWUtils */,
+				616D86AB1AE74BFE0079F58B /* GWUtilsTests */,
+				616D86901AE74BFE0079F58B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616D86901AE74BFE0079F58B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616D868F1AE74BFE0079F58B /* GWUtils.app */,
+				616D86A81AE74BFE0079F58B /* GWUtilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616D86911AE74BFE0079F58B /* GWUtils */ = {
+			isa = PBXGroup;
+			children = (
+				616D86D81AE7758B0079F58B /* GWSystemUtils */,
+				616D86D11AE774EA0079F58B /* GWAddressBook */,
+				616D86C71AE74F970079F58B /* MostColorPicker */,
+				616D86961AE74BFE0079F58B /* AppDelegate.h */,
+				616D86971AE74BFE0079F58B /* AppDelegate.m */,
+				616D86991AE74BFE0079F58B /* ViewController.h */,
+				616D869A1AE74BFE0079F58B /* ViewController.m */,
+				616D86C31AE74F8B0079F58B /* Test */,
+				616D869F1AE74BFE0079F58B /* Images.xcassets */,
+				616D86A11AE74BFE0079F58B /* LaunchScreen.xib */,
+				616D86921AE74BFE0079F58B /* Supporting Files */,
+			);
+			path = GWUtils;
+			sourceTree = "<group>";
+		};
+		616D86921AE74BFE0079F58B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616D86931AE74BFE0079F58B /* Info.plist */,
+				616D86941AE74BFE0079F58B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		616D86AB1AE74BFE0079F58B /* GWUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				616D86AE1AE74BFE0079F58B /* GWUtilsTests.m */,
+				616D86AC1AE74BFE0079F58B /* Supporting Files */,
+			);
+			path = GWUtilsTests;
+			sourceTree = "<group>";
+		};
+		616D86AC1AE74BFE0079F58B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				616D86AD1AE74BFE0079F58B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		616D86C31AE74F8B0079F58B /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				616D86E31AE77B3E0079F58B /* GWAddressBook */,
+				616D86E21AE77B300079F58B /* MostColorPicker */,
+				616D86CB1AE74FB00079F58B /* 1.jpg */,
+				616D86CC1AE74FB00079F58B /* 2.jpg */,
+				616D86CD1AE74FB00079F58B /* 3.jpg */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		616D86C71AE74F970079F58B /* MostColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				616D86C81AE74F970079F58B /* UIImage+MostColor.h */,
+				616D86C91AE74F970079F58B /* UIImage+MostColor.m */,
+			);
+			path = MostColorPicker;
+			sourceTree = "<group>";
+		};
+		616D86D11AE774EA0079F58B /* GWAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				616D86D21AE774EA0079F58B /* GWAddressBook.h */,
+				616D86D31AE774EA0079F58B /* GWAddressBook.m */,
+				616D86D41AE774EA0079F58B /* GWAddressBookPerson.h */,
+				616D86D51AE774EA0079F58B /* GWAddressBookPerson.m */,
+			);
+			path = GWAddressBook;
+			sourceTree = "<group>";
+		};
+		616D86D81AE7758B0079F58B /* GWSystemUtils */ = {
+			isa = PBXGroup;
+			children = (
+				616D86D91AE7758B0079F58B /* GWDeviceInfo.h */,
+				616D86DA1AE7758B0079F58B /* GWDeviceInfo.m */,
+				616D86DB1AE7758B0079F58B /* GWSystemApiHelper.h */,
+				616D86DC1AE7758B0079F58B /* GWSystemApiHelper.m */,
+				616D86DD1AE7758B0079F58B /* GWSystemInfo.h */,
+				616D86DE1AE7758B0079F58B /* GWSystemInfo.m */,
+			);
+			path = GWSystemUtils;
+			sourceTree = "<group>";
+		};
+		616D86E21AE77B300079F58B /* MostColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				616D86C41AE74F8B0079F58B /* GWMostColorPickerViewController.h */,
+				616D86C51AE74F8B0079F58B /* GWMostColorPickerViewController.m */,
+			);
+			name = MostColorPicker;
+			sourceTree = "<group>";
+		};
+		616D86E31AE77B3E0079F58B /* GWAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				616D86E41AE77B600079F58B /* GWAdressBookViewController.h */,
+				616D86E51AE77B600079F58B /* GWAdressBookViewController.m */,
+			);
+			name = GWAddressBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616D868E1AE74BFE0079F58B /* GWUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616D86B21AE74BFE0079F58B /* Build configuration list for PBXNativeTarget "GWUtils" */;
+			buildPhases = (
+				616D868B1AE74BFE0079F58B /* Sources */,
+				616D868C1AE74BFE0079F58B /* Frameworks */,
+				616D868D1AE74BFE0079F58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWUtils;
+			productName = GWUtils;
+			productReference = 616D868F1AE74BFE0079F58B /* GWUtils.app */;
+			productType = "com.apple.product-type.application";
+		};
+		616D86A71AE74BFE0079F58B /* GWUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616D86B51AE74BFE0079F58B /* Build configuration list for PBXNativeTarget "GWUtilsTests" */;
+			buildPhases = (
+				616D86A41AE74BFE0079F58B /* Sources */,
+				616D86A51AE74BFE0079F58B /* Frameworks */,
+				616D86A61AE74BFE0079F58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616D86AA1AE74BFE0079F58B /* PBXTargetDependency */,
+			);
+			name = GWUtilsTests;
+			productName = GWUtilsTests;
+			productReference = 616D86A81AE74BFE0079F58B /* GWUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616D86871AE74BFE0079F58B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = GW;
+				TargetAttributes = {
+					616D868E1AE74BFE0079F58B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					616D86A71AE74BFE0079F58B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 616D868E1AE74BFE0079F58B;
+					};
+				};
+			};
+			buildConfigurationList = 616D868A1AE74BFE0079F58B /* Build configuration list for PBXProject "GWUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616D86861AE74BFE0079F58B;
+			productRefGroup = 616D86901AE74BFE0079F58B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616D868E1AE74BFE0079F58B /* GWUtils */,
+				616D86A71AE74BFE0079F58B /* GWUtilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616D868D1AE74BFE0079F58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616D86CE1AE74FB00079F58B /* 1.jpg in Resources */,
+				616D86CF1AE74FB00079F58B /* 2.jpg in Resources */,
+				616D86D01AE74FB00079F58B /* 3.jpg in Resources */,
+				616D86A31AE74BFE0079F58B /* LaunchScreen.xib in Resources */,
+				616D86A01AE74BFE0079F58B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616D86A61AE74BFE0079F58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616D868B1AE74BFE0079F58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616D869B1AE74BFE0079F58B /* ViewController.m in Sources */,
+				616D86CA1AE74F970079F58B /* UIImage+MostColor.m in Sources */,
+				616D86E01AE7758B0079F58B /* GWSystemApiHelper.m in Sources */,
+				616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */,
+				616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */,
+				616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */,
+				616D86951AE74BFE0079F58B /* main.m in Sources */,
+				616D86D61AE774EA0079F58B /* GWAddressBook.m in Sources */,
+				616D86D71AE774EA0079F58B /* GWAddressBookPerson.m in Sources */,
+				616D86DF1AE7758B0079F58B /* GWDeviceInfo.m in Sources */,
+				616D86C61AE74F8B0079F58B /* GWMostColorPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616D86A41AE74BFE0079F58B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616D86AF1AE74BFE0079F58B /* GWUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616D86AA1AE74BFE0079F58B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616D868E1AE74BFE0079F58B /* GWUtils */;
+			targetProxy = 616D86A91AE74BFE0079F58B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		616D86A11AE74BFE0079F58B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				616D86A21AE74BFE0079F58B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		616D86B01AE74BFE0079F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		616D86B11AE74BFE0079F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616D86B31AE74BFE0079F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		616D86B41AE74BFE0079F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GWUtils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		616D86B61AE74BFE0079F58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GWUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWUtils.app/GWUtils";
+			};
+			name = Debug;
+		};
+		616D86B71AE74BFE0079F58B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GWUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GWUtils.app/GWUtils";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616D868A1AE74BFE0079F58B /* Build configuration list for PBXProject "GWUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616D86B01AE74BFE0079F58B /* Debug */,
+				616D86B11AE74BFE0079F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616D86B21AE74BFE0079F58B /* Build configuration list for PBXNativeTarget "GWUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616D86B31AE74BFE0079F58B /* Debug */,
+				616D86B41AE74BFE0079F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616D86B51AE74BFE0079F58B /* Build configuration list for PBXNativeTarget "GWUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616D86B61AE74BFE0079F58B /* Debug */,
+				616D86B71AE74BFE0079F58B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616D86871AE74BFE0079F58B /* Project object */;
+}
