@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		616D3C5B1AE888FB00DE6669 /* GWTypeCastingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D3C5A1AE888FB00DE6669 /* GWTypeCastingUtils.m */; };
+		616D3C5F1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D3C5E1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m */; };
 		616D86951AE74BFE0079F58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86941AE74BFE0079F58B /* main.m */; };
 		616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86971AE74BFE0079F58B /* AppDelegate.m */; };
 		616D869B1AE74BFE0079F58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D869A1AE74BFE0079F58B /* ViewController.m */; };
@@ -24,6 +26,9 @@
 		616D86E01AE7758B0079F58B /* GWSystemApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86DC1AE7758B0079F58B /* GWSystemApiHelper.m */; };
 		616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86DE1AE7758B0079F58B /* GWSystemInfo.m */; };
 		616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86E51AE77B600079F58B /* GWAdressBookViewController.m */; };
+		616D86EA1AE77F700079F58B /* GWKeyboardScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86E91AE77F700079F58B /* GWKeyboardScrollManager.m */; };
+		616D86EE1AE780030079F58B /* GWKeyboardScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86ED1AE780030079F58B /* GWKeyboardScrollViewController.m */; };
+		616D86F01AE780300079F58B /* GWKeyboardScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		616D3C591AE888FB00DE6669 /* GWTypeCastingUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWTypeCastingUtils.h; sourceTree = "<group>"; };
+		616D3C5A1AE888FB00DE6669 /* GWTypeCastingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTypeCastingUtils.m; sourceTree = "<group>"; };
+		616D3C5D1AE889B600DE6669 /* NSDictionary+GWTypeCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GWTypeCasting.h"; sourceTree = "<group>"; };
+		616D3C5E1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GWTypeCasting.m"; sourceTree = "<group>"; };
 		616D868F1AE74BFE0079F58B /* GWUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616D86931AE74BFE0079F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		616D86941AE74BFE0079F58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +77,11 @@
 		616D86DE1AE7758B0079F58B /* GWSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSystemInfo.m; sourceTree = "<group>"; };
 		616D86E41AE77B600079F58B /* GWAdressBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAdressBookViewController.h; sourceTree = "<group>"; };
 		616D86E51AE77B600079F58B /* GWAdressBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAdressBookViewController.m; sourceTree = "<group>"; };
+		616D86E81AE77F700079F58B /* GWKeyboardScrollManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKeyboardScrollManager.h; sourceTree = "<group>"; };
+		616D86E91AE77F700079F58B /* GWKeyboardScrollManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKeyboardScrollManager.m; sourceTree = "<group>"; };
+		616D86EC1AE780030079F58B /* GWKeyboardScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKeyboardScrollViewController.h; sourceTree = "<group>"; };
+		616D86ED1AE780030079F58B /* GWKeyboardScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKeyboardScrollViewController.m; sourceTree = "<group>"; };
+		616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWKeyboardScrollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +102,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		616D3C581AE888FB00DE6669 /* GWTypeCasting */ = {
+			isa = PBXGroup;
+			children = (
+				616D3C591AE888FB00DE6669 /* GWTypeCastingUtils.h */,
+				616D3C5A1AE888FB00DE6669 /* GWTypeCastingUtils.m */,
+			);
+			path = GWTypeCasting;
+			sourceTree = "<group>";
+		};
+		616D3C5C1AE8897500DE6669 /* GWDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				616D3C5D1AE889B600DE6669 /* NSDictionary+GWTypeCasting.h */,
+				616D3C5E1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m */,
+			);
+			path = GWDictionary;
+			sourceTree = "<group>";
+		};
 		616D86861AE74BFE0079F58B = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +141,9 @@
 		616D86911AE74BFE0079F58B /* GWUtils */ = {
 			isa = PBXGroup;
 			children = (
+				616D3C5C1AE8897500DE6669 /* GWDictionary */,
+				616D3C581AE888FB00DE6669 /* GWTypeCasting */,
+				616D86E71AE77F700079F58B /* GWKeyboardScrollManager */,
 				616D86D81AE7758B0079F58B /* GWSystemUtils */,
 				616D86D11AE774EA0079F58B /* GWAddressBook */,
 				616D86C71AE74F970079F58B /* MostColorPicker */,
@@ -153,6 +188,7 @@
 		616D86C31AE74F8B0079F58B /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				616D86EB1AE77FDA0079F58B /* GWKeyboardScrollManager */,
 				616D86E31AE77B3E0079F58B /* GWAddressBook */,
 				616D86E21AE77B300079F58B /* MostColorPicker */,
 				616D86CB1AE74FB00079F58B /* 1.jpg */,
@@ -211,6 +247,25 @@
 				616D86E51AE77B600079F58B /* GWAdressBookViewController.m */,
 			);
 			name = GWAddressBook;
+			sourceTree = "<group>";
+		};
+		616D86E71AE77F700079F58B /* GWKeyboardScrollManager */ = {
+			isa = PBXGroup;
+			children = (
+				616D86E81AE77F700079F58B /* GWKeyboardScrollManager.h */,
+				616D86E91AE77F700079F58B /* GWKeyboardScrollManager.m */,
+			);
+			path = GWKeyboardScrollManager;
+			sourceTree = "<group>";
+		};
+		616D86EB1AE77FDA0079F58B /* GWKeyboardScrollManager */ = {
+			isa = PBXGroup;
+			children = (
+				616D86EC1AE780030079F58B /* GWKeyboardScrollViewController.h */,
+				616D86ED1AE780030079F58B /* GWKeyboardScrollViewController.m */,
+				616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */,
+			);
+			name = GWKeyboardScrollManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616D86F01AE780300079F58B /* GWKeyboardScrollViewController.xib in Resources */,
 				616D86CE1AE74FB00079F58B /* 1.jpg in Resources */,
 				616D86CF1AE74FB00079F58B /* 2.jpg in Resources */,
 				616D86D01AE74FB00079F58B /* 3.jpg in Resources */,
@@ -319,8 +375,12 @@
 				616D86CA1AE74F970079F58B /* UIImage+MostColor.m in Sources */,
 				616D86E01AE7758B0079F58B /* GWSystemApiHelper.m in Sources */,
 				616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */,
+				616D86EA1AE77F700079F58B /* GWKeyboardScrollManager.m in Sources */,
+				616D3C5F1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m in Sources */,
 				616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */,
 				616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */,
+				616D86EE1AE780030079F58B /* GWKeyboardScrollViewController.m in Sources */,
+				616D3C5B1AE888FB00DE6669 /* GWTypeCastingUtils.m in Sources */,
 				616D86951AE74BFE0079F58B /* main.m in Sources */,
 				616D86D61AE774EA0079F58B /* GWAddressBook.m in Sources */,
 				616D86D71AE774EA0079F58B /* GWAddressBookPerson.m in Sources */,

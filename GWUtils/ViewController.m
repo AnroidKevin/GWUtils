@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "GWMostColorPickerViewController.h"
 #import "GWAdressBookViewController.h"
+#import "GWKeyboardScrollViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -40,7 +41,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 2;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -62,6 +63,12 @@
         case 1: {
             
             cell.textLabel.text = @"GWAddressBook";
+            break;
+        }
+            
+        case 2: {
+            
+            cell.textLabel.text = @"GWKeyboardScrollManager";
             break;
         }
             
@@ -87,6 +94,13 @@
         case 1: {
             
             GWAdressBookViewController *vc = [[GWAdressBookViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        case 2: {
+            
+            GWKeyboardScrollViewController *vc = [[GWKeyboardScrollViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
