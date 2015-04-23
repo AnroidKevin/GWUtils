@@ -22,7 +22,7 @@
                                                  8,//bits per component
                                                  thumbSize.width*4,
                                                  colorSpace,
-                                                 kCGImageAlphaPremultipliedLast);
+                                                 (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
     
     CGRect drawRect = CGRectMake(0, 0, thumbSize.width, thumbSize.height);
 	CGContextDrawImage(context, drawRect, self.CGImage);
@@ -73,7 +73,6 @@
         
 	}
     
-    NSLog(@"The Color is %@  repeats %d",[MaxColor description],MaxCount);
 	return [UIColor colorWithRed:([MaxColor[0] intValue]/255.0f) green:([MaxColor[1] intValue]/255.0f) blue:([MaxColor[2] intValue]/255.0f) alpha:([MaxColor[3] intValue]/255.0f)];
 }
 

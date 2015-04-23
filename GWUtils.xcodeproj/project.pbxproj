@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		616D3C5B1AE888FB00DE6669 /* GWTypeCastingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D3C5A1AE888FB00DE6669 /* GWTypeCastingUtils.m */; };
 		616D3C5F1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D3C5E1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m */; };
+		616D3C631AE8EDDA00DE6669 /* GWColours.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D3C621AE8EDDA00DE6669 /* GWColours.m */; };
 		616D86951AE74BFE0079F58B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86941AE74BFE0079F58B /* main.m */; };
 		616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86971AE74BFE0079F58B /* AppDelegate.m */; };
 		616D869B1AE74BFE0079F58B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D869A1AE74BFE0079F58B /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		616D3C5A1AE888FB00DE6669 /* GWTypeCastingUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWTypeCastingUtils.m; sourceTree = "<group>"; };
 		616D3C5D1AE889B600DE6669 /* NSDictionary+GWTypeCasting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GWTypeCasting.h"; sourceTree = "<group>"; };
 		616D3C5E1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GWTypeCasting.m"; sourceTree = "<group>"; };
+		616D3C611AE8EDDA00DE6669 /* GWColours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWColours.h; sourceTree = "<group>"; };
+		616D3C621AE8EDDA00DE6669 /* GWColours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWColours.m; sourceTree = "<group>"; };
 		616D868F1AE74BFE0079F58B /* GWUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		616D86931AE74BFE0079F58B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		616D86941AE74BFE0079F58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,6 +123,15 @@
 			path = GWDictionary;
 			sourceTree = "<group>";
 		};
+		616D3C601AE8EDDA00DE6669 /* GWColours */ = {
+			isa = PBXGroup;
+			children = (
+				616D3C611AE8EDDA00DE6669 /* GWColours.h */,
+				616D3C621AE8EDDA00DE6669 /* GWColours.m */,
+			);
+			path = GWColours;
+			sourceTree = "<group>";
+		};
 		616D86861AE74BFE0079F58B = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +153,7 @@
 		616D86911AE74BFE0079F58B /* GWUtils */ = {
 			isa = PBXGroup;
 			children = (
+				616D3C601AE8EDDA00DE6669 /* GWColours */,
 				616D3C5C1AE8897500DE6669 /* GWDictionary */,
 				616D3C581AE888FB00DE6669 /* GWTypeCasting */,
 				616D86E71AE77F700079F58B /* GWKeyboardScrollManager */,
@@ -377,6 +390,7 @@
 				616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */,
 				616D86EA1AE77F700079F58B /* GWKeyboardScrollManager.m in Sources */,
 				616D3C5F1AE889B600DE6669 /* NSDictionary+GWTypeCasting.m in Sources */,
+				616D3C631AE8EDDA00DE6669 /* GWColours.m in Sources */,
 				616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */,
 				616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */,
 				616D86EE1AE780030079F58B /* GWKeyboardScrollViewController.m in Sources */,
