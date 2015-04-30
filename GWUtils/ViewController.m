@@ -10,6 +10,7 @@
 #import "GWMostColorPickerViewController.h"
 #import "GWAdressBookViewController.h"
 #import "GWKeyboardScrollViewController.h"
+#import "GWVerticalButtonViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -41,7 +42,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     
-    return 3;
+    return 4;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -69,6 +70,12 @@
         case 2: {
             
             cell.textLabel.text = @"GWKeyboardScrollManager";
+            break;
+        }
+            
+        case 3: {
+            
+            cell.textLabel.text = @"GWVerticalButton";
             break;
         }
             
@@ -101,6 +108,13 @@
         case 2: {
             
             GWKeyboardScrollViewController *vc = [[GWKeyboardScrollViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+            
+        case 3: {
+            
+            GWVerticalButtonViewController *vc = [[GWVerticalButtonViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

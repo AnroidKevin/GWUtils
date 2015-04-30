@@ -30,6 +30,13 @@
 		616D86EA1AE77F700079F58B /* GWKeyboardScrollManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86E91AE77F700079F58B /* GWKeyboardScrollManager.m */; };
 		616D86EE1AE780030079F58B /* GWKeyboardScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 616D86ED1AE780030079F58B /* GWKeyboardScrollViewController.m */; };
 		616D86F01AE780300079F58B /* GWKeyboardScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */; };
+		6174A15F1AEA207500ED3656 /* GWVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174A15E1AEA207500ED3656 /* GWVerticalButton.m */; };
+		6174A1631AEA224100ED3656 /* GWVerticalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6174A1621AEA224100ED3656 /* GWVerticalButtonViewController.m */; };
+		6174A1651AEA299600ED3656 /* collection_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6174A1641AEA299600ED3656 /* collection_normal.png */; };
+		61876C301AF2004B002AACE8 /* GWIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61876C2B1AF2004B002AACE8 /* GWIAPHelper.m */; };
+		61876C311AF2004B002AACE8 /* GWIAPStoreKitDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61876C2D1AF2004B002AACE8 /* GWIAPStoreKitDataManager.m */; };
+		61876C321AF2004B002AACE8 /* GWLHNewApiIAPPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 61876C2F1AF2004B002AACE8 /* GWLHNewApiIAPPayManager.m */; };
+		61876C351AF202CE002AACE8 /* GWSFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 61876C341AF202CE002AACE8 /* GWSFHFKeychainUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +92,19 @@
 		616D86EC1AE780030079F58B /* GWKeyboardScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWKeyboardScrollViewController.h; sourceTree = "<group>"; };
 		616D86ED1AE780030079F58B /* GWKeyboardScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWKeyboardScrollViewController.m; sourceTree = "<group>"; };
 		616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWKeyboardScrollViewController.xib; sourceTree = "<group>"; };
+		6174A15D1AEA207500ED3656 /* GWVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWVerticalButton.h; sourceTree = "<group>"; };
+		6174A15E1AEA207500ED3656 /* GWVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWVerticalButton.m; sourceTree = "<group>"; };
+		6174A1611AEA224100ED3656 /* GWVerticalButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWVerticalButtonViewController.h; sourceTree = "<group>"; };
+		6174A1621AEA224100ED3656 /* GWVerticalButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWVerticalButtonViewController.m; sourceTree = "<group>"; };
+		6174A1641AEA299600ED3656 /* collection_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = collection_normal.png; sourceTree = "<group>"; };
+		61876C2A1AF2004B002AACE8 /* GWIAPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWIAPHelper.h; sourceTree = "<group>"; };
+		61876C2B1AF2004B002AACE8 /* GWIAPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWIAPHelper.m; sourceTree = "<group>"; };
+		61876C2C1AF2004B002AACE8 /* GWIAPStoreKitDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWIAPStoreKitDataManager.h; sourceTree = "<group>"; };
+		61876C2D1AF2004B002AACE8 /* GWIAPStoreKitDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWIAPStoreKitDataManager.m; sourceTree = "<group>"; };
+		61876C2E1AF2004B002AACE8 /* GWLHNewApiIAPPayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWLHNewApiIAPPayManager.h; sourceTree = "<group>"; };
+		61876C2F1AF2004B002AACE8 /* GWLHNewApiIAPPayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWLHNewApiIAPPayManager.m; sourceTree = "<group>"; };
+		61876C331AF202CE002AACE8 /* GWSFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSFHFKeychainUtils.h; sourceTree = "<group>"; };
+		61876C341AF202CE002AACE8 /* GWSFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSFHFKeychainUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +173,8 @@
 		616D86911AE74BFE0079F58B /* GWUtils */ = {
 			isa = PBXGroup;
 			children = (
+				61876C291AF1FE42002AACE8 /* GWIAP */,
+				6174A15C1AEA204F00ED3656 /* GWVerticalButton */,
 				616D3C601AE8EDDA00DE6669 /* GWColours */,
 				616D3C5C1AE8897500DE6669 /* GWDictionary */,
 				616D3C581AE888FB00DE6669 /* GWTypeCasting */,
@@ -201,12 +223,14 @@
 		616D86C31AE74F8B0079F58B /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				6174A1601AEA222300ED3656 /* GWVerticalButton */,
 				616D86EB1AE77FDA0079F58B /* GWKeyboardScrollManager */,
 				616D86E31AE77B3E0079F58B /* GWAddressBook */,
 				616D86E21AE77B300079F58B /* MostColorPicker */,
 				616D86CB1AE74FB00079F58B /* 1.jpg */,
 				616D86CC1AE74FB00079F58B /* 2.jpg */,
 				616D86CD1AE74FB00079F58B /* 3.jpg */,
+				6174A1641AEA299600ED3656 /* collection_normal.png */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -279,6 +303,39 @@
 				616D86EF1AE780300079F58B /* GWKeyboardScrollViewController.xib */,
 			);
 			name = GWKeyboardScrollManager;
+			sourceTree = "<group>";
+		};
+		6174A15C1AEA204F00ED3656 /* GWVerticalButton */ = {
+			isa = PBXGroup;
+			children = (
+				6174A15D1AEA207500ED3656 /* GWVerticalButton.h */,
+				6174A15E1AEA207500ED3656 /* GWVerticalButton.m */,
+			);
+			path = GWVerticalButton;
+			sourceTree = "<group>";
+		};
+		6174A1601AEA222300ED3656 /* GWVerticalButton */ = {
+			isa = PBXGroup;
+			children = (
+				6174A1611AEA224100ED3656 /* GWVerticalButtonViewController.h */,
+				6174A1621AEA224100ED3656 /* GWVerticalButtonViewController.m */,
+			);
+			name = GWVerticalButton;
+			sourceTree = "<group>";
+		};
+		61876C291AF1FE42002AACE8 /* GWIAP */ = {
+			isa = PBXGroup;
+			children = (
+				61876C2A1AF2004B002AACE8 /* GWIAPHelper.h */,
+				61876C2B1AF2004B002AACE8 /* GWIAPHelper.m */,
+				61876C2C1AF2004B002AACE8 /* GWIAPStoreKitDataManager.h */,
+				61876C2D1AF2004B002AACE8 /* GWIAPStoreKitDataManager.m */,
+				61876C2E1AF2004B002AACE8 /* GWLHNewApiIAPPayManager.h */,
+				61876C2F1AF2004B002AACE8 /* GWLHNewApiIAPPayManager.m */,
+				61876C331AF202CE002AACE8 /* GWSFHFKeychainUtils.h */,
+				61876C341AF202CE002AACE8 /* GWSFHFKeychainUtils.m */,
+			);
+			path = GWIAP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +418,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6174A1651AEA299600ED3656 /* collection_normal.png in Resources */,
 				616D86F01AE780300079F58B /* GWKeyboardScrollViewController.xib in Resources */,
 				616D86CE1AE74FB00079F58B /* 1.jpg in Resources */,
 				616D86CF1AE74FB00079F58B /* 2.jpg in Resources */,
@@ -386,6 +444,7 @@
 			files = (
 				616D869B1AE74BFE0079F58B /* ViewController.m in Sources */,
 				616D86CA1AE74F970079F58B /* UIImage+MostColor.m in Sources */,
+				61876C351AF202CE002AACE8 /* GWSFHFKeychainUtils.m in Sources */,
 				616D86E01AE7758B0079F58B /* GWSystemApiHelper.m in Sources */,
 				616D86E11AE7758B0079F58B /* GWSystemInfo.m in Sources */,
 				616D86EA1AE77F700079F58B /* GWKeyboardScrollManager.m in Sources */,
@@ -393,11 +452,16 @@
 				616D3C631AE8EDDA00DE6669 /* GWColours.m in Sources */,
 				616D86E61AE77B600079F58B /* GWAdressBookViewController.m in Sources */,
 				616D86981AE74BFE0079F58B /* AppDelegate.m in Sources */,
+				61876C301AF2004B002AACE8 /* GWIAPHelper.m in Sources */,
+				6174A15F1AEA207500ED3656 /* GWVerticalButton.m in Sources */,
 				616D86EE1AE780030079F58B /* GWKeyboardScrollViewController.m in Sources */,
 				616D3C5B1AE888FB00DE6669 /* GWTypeCastingUtils.m in Sources */,
+				6174A1631AEA224100ED3656 /* GWVerticalButtonViewController.m in Sources */,
 				616D86951AE74BFE0079F58B /* main.m in Sources */,
 				616D86D61AE774EA0079F58B /* GWAddressBook.m in Sources */,
+				61876C321AF2004B002AACE8 /* GWLHNewApiIAPPayManager.m in Sources */,
 				616D86D71AE774EA0079F58B /* GWAddressBookPerson.m in Sources */,
+				61876C311AF2004B002AACE8 /* GWIAPStoreKitDataManager.m in Sources */,
 				616D86DF1AE7758B0079F58B /* GWDeviceInfo.m in Sources */,
 				616D86C61AE74F8B0079F58B /* GWMostColorPickerViewController.m in Sources */,
 			);
